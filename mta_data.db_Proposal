@@ -1,0 +1,16 @@
+Question/need:
+My client California Sober is looking to do a billboard  marketing campaign for their new THC Infused Seltzer at NYC subway stops.
+I plan to use MTA turnstile data to give California Sober a model of the top 5 stations for impressions per minute based off the riders entering and exiting said stations durring peak travel time. 
+
+Data Description:
+I will use MTA turnstile data from the last 3 months of the get_mta.md file. 
+I plan to use samples subway stops in Manhattan and Brooklyn and analyze which stops have the most traffic at peak ride hours for every day of the week. 
+I predict that the peak travel time will be 4pm - 8pm (for the weekdays), when people are getting off work. This is an ideal timeframe to market a THC Infused Seltze.
+From there I will model for the top 5 stations for impressions per minute based off the riders entering and exiting said stations.
+
+Tools:
+I will be using Python, SQLite, SQLAlchemy, and Pandas. 
+I might also use Matplotlib.
+
+MVP Goal:
+Find one station between Manhattan and Brooklyn that best meets the clients needs.
