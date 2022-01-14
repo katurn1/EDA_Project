@@ -41,7 +41,7 @@ I also saw that half of the data was starting its time reading at 00:00:00 and t
 - DateTime for manipulation of dates and time
 
 ## Communication
-Once I was able model and plot the data my finding were as follows
+Once I was able to model and plot the data my findings were as follows
 - All top 10 stations for total ridership were in Manhattan and Brooklyn 
 - The top station, 34 St-Penn Station, had over 9 million riders durring that time period
 - The 10th top station, 125 St, had just under 5 million riders durring that time period
