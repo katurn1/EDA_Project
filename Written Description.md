@@ -23,7 +23,16 @@ From the MTA Turnstile Data I used the 3 most recent months available. The categ
 - dropped unnecessary columns
 - all negative values for entries and exits were dropped from dataset since values should be accumulative
 - renamed columns
-3. EDA - 
+- dropped outliers
+3. EDA - To help with EDA I had to create a few new columns.
+- time interval- to make sure all times were in 4hr intervals
+- day of week
+- entries differential- used a threshold based on the total seconds in a day. Assuming that each sec cannot have more than 1 person going through the turnstile at one time.
+- exits differential- same threshold as above
+- impression per 4hrs- created this as our ranking metric
+
+Durring EDA I noticed 'DESC' had a unique vale (RECOVOR AUD) which semed to be when the turnstiles were being reset. It was throwing of the data so I dropped it.
+I also saw that half of the data was starting its time reading at 00:00:00 and the other half was shifted by 1hr starting at 01:00:00. Once I understood what was happening I was able to work with the data.
 
 ## Tools
 
@@ -32,4 +41,5 @@ From the MTA Turnstile Data I used the 3 most recent months available. The categ
 - DateTime for manipulation of dates and time
 
 ## Communication
-
+Once I was able model and plot the data my finding were as follows:
+- 
