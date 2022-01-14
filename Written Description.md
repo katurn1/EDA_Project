@@ -66,3 +66,8 @@ Focus the campaign on the top 10 stations, '34 ST-PENN STA', 'GRD CNTRL-42 ST', 
 - I would break down the data to sation terminal
 - Find the top 5 stations in Brooklyn
 - I might also use data from the most recent year to 2 years
+![Top 10 Ridership Stations_final](https://user-images.githubusercontent.com/87869709/149445381-d204f46e-ec18-473c-adb8-781766375ed5.jpeg)
+![TOP DAYS of WEEK for RIDERSHIP_final](https://user-images.githubusercontent.com/87869709/149445418-5c458035-51db-465b-a777-6243ec6785cd.jpeg)
+![PEAK IMPRESSIONS PER HOUR_dow_final](https://user-images.githubusercontent.com/87869709/149445468-69dd1f12-c92b-4339-842f-bd3a570b791a.jpeg)
+![PEAK IMPRESSIONS PER HOUR Top 4 Stations_final](https://user-images.githubusercontent.com/87869709/149445493-278a89f9-38b3-4dba-af5c-7df489a689aa.jpeg)
+
