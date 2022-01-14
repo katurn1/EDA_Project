@@ -50,7 +50,7 @@ Once I was able to model and plot the data my findings were as follows
 - Wednesday had just under 68 million riders and no other day was under 64 million riders
 - For all days of the week the peak time for Impressions per Hour average was at 7pm
 - The top 4 stations total Impressions per Hour happened between 6pm-7pm
-- At 7pm, 34 St-Herald Sq, Impression per Hour peak around 750k 
+- At 7pm, 34 St-Herald Sq, Impressions per Hour peak around 750k 
 
 ### Cost for billboards (required minimum 4 weeks)
 - Static subway-entrance ads- $3,000 per 4 week period
