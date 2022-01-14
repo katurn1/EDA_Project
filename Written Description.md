@@ -46,7 +46,7 @@ Once I was able to model and plot the data my findings were as follows
 - All top 10 stations for total ridership were in Manhattan and Brooklyn 
 - The top station, 34 St-Penn Station, had over 9 million riders during the 3 month time period
 - The 10th top station, 125 St, had just under 5 million riders during that time period
-- Between the top 10 stations the top day of the week for total ridership in those 3 months was Wednesday
+- Between the top 10 stations, the top day of the week for total ridership in those 3 months was Wednesday
 - Wednesday had just under 68 million riders and no other day was under 64 million riders
 - For all days of the week the peak time for Impressions per Hour average was at 7pm
 - The top 4 stations total Impressions per Hour happened between 6pm-7pm
