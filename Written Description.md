@@ -61,3 +61,8 @@ Once I was able to model and plot the data my findings were as follows
 
 My guidance to 'California Sober'- 
 Focus the campaign on the top 10 stations, '34 ST-PENN STA', 'GRD CNTRL-42 ST', '86 ST', '34 ST-HERALD SQ', '14 ST-UNION SQ', '23 ST','FULTON ST', '125 ST', '42 ST-PORT AUTH', and 'TIMES SQ-42 ST'. Purchase at least 1 Static subway-entrance ad and Backlit Diorama for each of the top 10 stations. At each station the daily average potential impressions range between 550k-620k at 7pm weekdays.  The minimum cost will be for both will be $34,000 for 4 weeks. The Static subway-entrance ads will also have a lot of added impressions from sidewalk foot traffic. 'California Sober' can also couple this with a guerilla campaign of handing out drinks at the entrances of each station at the peak time, 7pm, to effectively reach the most people. If choosing one day to hand out drinks Wednesday is the top day for traffic.
+
+### If I had more time for analysis
+- I would break down the data to sation terminal
+- Find the top 5 stations in Brooklyn
+- I might also use data from the most recent year to 2 years
