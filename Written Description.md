@@ -3,13 +3,13 @@
 > Kyle Turner
 
 ## Abstract
-The goal of my project was to give my client 'California Sober' a model of the top 10 NYC subway stations for ridership in Manhattan + Brooklyn. With the data that I provide 'California Sober' they will then be able to create a billboard marketing campaign for their new THC Infused Seltzer at each station recommended.
+The goal of my project was to give my client 'California Sober' a model of the top 10 NYC subway stations for ridership in Manhattan and Brooklyn. With the data that I provide 'California Sober' they will be able to create a billboard marketing campaign for their new THC Infused Seltzer at each station recommended.
 
 I worked with data from the [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html). After some exploratory analysis I was able to refine a model that I could use visualize my findings.
 
 ## Design
 My prediction for the analysis was that the peak travel time for most stations would be 4pm - 8pm (for the weekdays), when people are getting off work. This is an ideal timeframe to market a THC Infused Seltzer.
-The weekends were dropped because I wanted to focuse on the work crowd; people who would see the billboards repeatedly. 
+The weekends were dropped because I wanted to focus on the work crowd; people who would see the billboards repeatedly. 
 
 ## Data
 From the MTA Turnstile Data I used the 3 most recent months available. The categories of interest to me were 'Date', 'Time', 'Station', 'Entries' and 'Exits'. I used to data to get an overall view of ridership at each station instead of looking into each individual turnstile at each station. There were 379 stations in the DataFrame.
@@ -32,7 +32,7 @@ From the MTA Turnstile Data I used the 3 most recent months available. The categ
 - exits differential- same threshold as above
 - impression per 4hrs- created this as our ranking metric
 
-Durring EDA I noticed 'DESC' had a unique vale (RECOVOR AUD) which semed to be when the turnstiles were being reset. It was throwing of the data so I dropped it.
+During EDA I noticed 'DESC' had a unique vale (RECOVOR AUD) which seemed to be when the turnstiles were being reset. It was throwing of the data so I dropped it.
 I also saw that half of the data was starting its time reading at 00:00:00 and the other half was shifted by 1hr starting at 01:00:00. Once I understood what was happening I was able to work with the data.
 
 ## Tools
@@ -52,11 +52,12 @@ Once I was able to model and plot the data my findings were as follows
 - The top 4 stations total Impressions per Hour happened between 6pm-7pm
 - At 7pm, 34 St-Herald Sq, Impression per Hour peak around 750k 
 
-Cost for biboards
-Static subway-entrance ads- $3,000 per 4 week period
-Backlit Diorama Range of $400 - $1,950 per ad per 4 week period
+### Cost for billboards (required minimum 4 weeks)
+- Static subway-entrance ads- $3,000 per 4 week period
+- Backlit Diorama Range of $400 - $1,950 per ad per 4 week period
 
-Static subway-entrance ads:  4 weeks $30,000 for 10 Stations
-Backlit Diorama- 4 weeks $4000 minimum for 10 Stations
+- Static subway-entrance ads:  4 weeks $30,000 for 10 Stations
+- Backlit Diorama- 4 weeks $4000 minimum for 10 Stations
 
-My guidence to 'California Sober'- For each of the top 10 stations get at least 1 Static subway-entrance ad and Backlit Diorama. The minimum cost will be for both will be $34,000 for 4 weeks. The Static subway-entrance ads will also have a lot of added impressions from sidewalk foot traffic. 'California Sober' can also couple this with a gurilla campagin of handing out drinks at the entrences of each station at the peak time 7pm to effectively reach the most people.
+My guidance to 'California Sober'- 
+Focuse the campign on the top 10 stations, '34 ST-PENN STA', 'GRD CNTRL-42 ST', '86 ST', '34 ST-HERALD SQ', '14 ST-UNION SQ', '23 ST','FULTON ST', '125 ST', '42 ST-PORT AUTH', and 'TIMES SQ-42 ST'. Between those stations the daily average potential impressions at 7pm weekdays is 550k-620k with Wednesday being the top day. For each of the top 10 stations get at least 1 Static subway-entrance ad and Backlit Diorama. The minimum cost will be for both will be $34,000 for 4 weeks. The Static subway-entrance ads will also have a lot of added impressions from sidewalk foot traffic. 'California Sober' can also couple this with a guerilla campaign of handing out drinks at the entrances of each station at the peak time 7pm to effectively reach the most people.
