@@ -3,7 +3,8 @@
 > Kyle Turner
 
 ## Abstract
-The goal of my project was to give my client 'California Sober' a model of the top 10 NYC subway stations for ridership in Manhattan + Brooklyn. With the data that I provide 'California Sober' they will then be able to create a billboard marketing campaign for their new THC Infused Seltzer at each station recomended.
+The goal of my project was to give my client 'California Sober' a model of the top 10 NYC subway stations for ridership in Manhattan + Brooklyn. With the data that I provide 'California Sober' they will then be able to create a billboard marketing campaign for their new THC Infused Seltzer at each station recommended.
+
 I worked with data from the [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html). After some exploratory analysis I was able to refine a model that I could use visualize my findings.
 
 ## Design
@@ -50,3 +51,12 @@ Once I was able to model and plot the data my findings were as follows
 - For all days of the week the peak time for Impressions per Hour average was at 7pm
 - The top 4 stations total Impressions per Hour happened between 6pm-7pm
 - At 7pm, 34 St-Herald Sq, Impression per Hour peak around 750k 
+
+Cost for biboards
+Static subway-entrance ads- $3,000 per 4 week period
+Backlit Diorama Range of $400 - $1,950 per ad per 4 week period
+
+Static subway-entrance ads:  4 weeks $30,000 for 10 Stations
+Backlit Diorama- 4 weeks $4000 minimum for 10 Stations
+
+My guidence to 'California Sober'- For each of the top 10 stations get at least 1 Static subway-entrance ad and Backlit Diorama. The minimum cost will be for both will be $34,000 for 4 weeks. The Static subway-entrance ads will also have a lot of added impressions from sidewalk foot traffic. 'California Sober' can also couple this with a gurilla campagin of handing out drinks at the entrences of each station at the peak time 7pm to effectively reach the most people.
