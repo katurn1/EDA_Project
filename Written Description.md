@@ -16,8 +16,14 @@ From the MTA Turnstile Data I used the 3 most recent months available. The categ
 ## Algorithms
 1. Summary Stats - I started getting inference into the data using summary stats from SQLAlchemy and continued to pull summary stats throught my work flow using Pandas.
 2. Data Cleaning - The data cleaning really started after my SQLAlchemy queries. 
-
-3. EDA
+- created date_time column
+- reformated using strip, lower, and replace('/','_')
+- checked for and removed duplicates
+- detect and drop Nulls
+- dropped unnecessary columns
+- all negative values for entries and exits were dropped from dataset since values should be accumulative
+- renamed columns
+3. EDA - 
 
 ## Tools
 
