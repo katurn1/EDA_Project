@@ -12,7 +12,7 @@ My prediction for the analysis was that the peak travel time for most stations w
 The weekends were dropped because I wanted to focus on the work crowd; people who would see the billboards repeatedly. 
 
 ## Data
-From the MTA Turnstile Data I used the 3 most recent months available. The categories of interest to me were 'Date', 'Time', 'Station', 'Entries' and 'Exits'. I used to data to get an overall view of ridership at each station instead of looking into each individual turnstile at each station. There were 379 stations in the DataFrame.
+From the MTA Turnstile Data I used the 3 most recent months available. The categories of interest to me were 'Date', 'Time', 'Station', 'Entries' and 'Exits'. I used full station data to get an overall view of ridership at each station instead of looking into each individual turnstile at each station. There were 379 stations in the DataFrame.
 
 ## Algorithms
 1. Summary Stats - I started getting inference into the data using summary stats from SQLAlchemy and continued to pull summary stats throught my work flow using Pandas.
